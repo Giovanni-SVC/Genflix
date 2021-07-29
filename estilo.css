@@ -152,6 +152,7 @@ footer .fa{
 }
 
   .card-body button{
+   
     color: #000;
     font-size: 10pt;
     font-weight: 700;
@@ -166,6 +167,9 @@ footer .fa{
     text-decoration: none;
     box-shadow: #000 0px 3px ;
   }
+.card-body button a{
+  text-decoration: none;
+}
 
   .btn-assine-amarelo:hover{
     transition: .5s ease;
@@ -183,7 +187,8 @@ footer .fa{
     box-shadow: #000 0px 10px 4px;
   }
 
-  .btn-assine-verde:hover{
+.btn-assine-verde:hover{
+    
     transition: .5s ease;
     transform: scale(110%);
     background-color: #1ED761;
