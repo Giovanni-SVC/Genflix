@@ -1,0 +1,54 @@
+body {
+    
+    
+    background-image: url('https://www.gracenote.com/wp-content/uploads/2015/07/Movie-TV-Art-Mosaic-Comp1.jpg');
+   
+  }
+
+.card{
+    margin-top: 150px;
+}
+
+.btn{
+      border-radius: 50px;
+}
+
+
+
+footer li {
+    list-style: none;
+}
+
+footer .fa{
+    margin-top: 20px;
+    font-size: 35pt;
+    color: #ffffff;
+    padding: 10px;
+    
+}
+  
+.fa-linkedin-square:hover{
+    color: #0072b1;
+}
+  
+.fa-github:hover{
+    color: #727272;
+}
+
+
+.button-logar button{
+    font-size: 17pt;
+    font-weight: 400;
+    letter-spacing: 1px;
+    width: 100%;
+    background-color: #244cff;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50px;
+    outline: none;
+    transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+
+  
