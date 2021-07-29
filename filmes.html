@@ -6,9 +6,11 @@
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/letra-g-logo.png" type="images">
+    <link rel="shortcut icon" href="assets/g-logo-roxo.png" type="images">
     <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="./style/owl/owl.theme.default.min.css">
     <title>Genflix</title>
 
     <!-- Link Bootstrap e CSS -->
@@ -33,7 +35,10 @@
     <!-- Menu - Barra de navegação -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark" id="navbar-opacidade">
         <div class="container-fluid">
-            <a class="navbar-brand text-uppercase fw-bold text-warning" href="index.html">GENFLIX</a>
+            <!-- <a class="navbar-brand text-uppercase fw-bold text-warning" href="index.html">GENFLIX</a> -->
+            <img src="assets/perfil-usuario.jpg" alt="" width="40px" height="40px" class="img-fluid rounded-circle">
+
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -41,6 +46,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
@@ -50,9 +56,9 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="series.html">Séries</a>
                     </li>
-                    
+
                     <li class="nav-item">
-                        <a class="nav-link active fw-bold" aria-current="page" href="assine.html">Assine</a>
+                        <a class="nav-link active fw-bold" aria-current="page" href="assine.html">Pacotes</a>
                     </li>
                 </ul>
 
@@ -60,7 +66,7 @@
                 <form class="d-flex">
                     <input class="form-control me-2 bg-dark text-white" type="search" placeholder="Digite..."
                         aria-label="Search">
-                    <button class="btn btn-outline-warning" type="submit">Pesquisar</button>
+                    <button class="btn btn-outline-secondary" type="submit">Pesquisar</button>
                 </form>
             </div>
         </div>
@@ -97,17 +103,13 @@
 
 
     <!--cards-->
-    <div class="container">
-        
-        
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-
-
-            <div class="col-md-3">
-                <div class="h-100 w-85">
+    <div class="container-fluid">
+        <div class="carousel">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
                     <div class="thumbnail">
-                        <img src="https://www.sinceindependence.com/wp-content/uploads/2019/06/joker.jpg"
-                            class="card-img-top" alt="...">
+                        <img class="box-film" src="imagens-catalogo/joker.jpg" alt="Filme 1">
+
                         <div class="overlay">
                         </div>
                     </div>
@@ -115,281 +117,244 @@
                         <h5 class="card-title text-light">Coringa</h5>
 
                     </div>
-
                 </div>
-            </div>
-
-
-
-            <div class="col-md-3">
-                <div class="h-80 w-85">
+                <div class="item">
                     <div class="thumbnail">
-                        <img src="https://sm.ign.com/t/ign_br/screenshot/default/um-lugar-silencioso-2-trailer-final_cz67.h720.jpg"
-                            class="card-img-top" alt="...">
+                        <img class="box-film" src="imagens-catalogo/o farol.jpg" alt="Filme 1">
                         <div class="overlay">
                         </div>
+
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title text-light">Um Lugar Silencioso II</h5>
+                        <h5 class="card-title text-light">O Farol</h5>
 
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-3">
-                <div class="h-90 w-85">
+                <div class="item">
                     <div class="thumbnail">
-                        <img src="https://observatoriodocinema.uol.com.br/wp-content/uploads/2018/07/untitled2-1522769069139_1280w.jpg"
-                            class="card-img-top" alt="...">
+                        <img class="box-film" src="imagens-catalogo/mulher-maravilha.jpg" alt="Filme 1">
                         <div class="overlay">
                         </div>
-                    </div>
 
-                    <div class="card-body">
-                        <h5 class="card-title text-light">Vingadores: Guerra Infinita</h5>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3">
-                <div class="h-80 w-85">
-                    <div class="thumbnail">
-                        <img src="https://blog.newtonpaiva.br/wp-content/uploads/2020/05/Fome-de-Poder-Blog-Sebrae-SC-e1548703725594-1280x720-1.jpg"
-                            class="card-img-top" alt="...">
-                        <div class="overlay">
-                        </div>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title text-light">Fome de Poder</h5>
+                        <h5 class="card-title text-light">Mulher-Maravilha</h5>
 
                     </div>
                 </div>
-            </div>
-        </div>
 
-
-
-        <div class="jumbotron bg-dark mt-5">
-
-            <div class="text-light">
-                <h3 class="display-8">Comédia</h3>
-
-            </div>
-
-        </div>
-
-
-
-
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col-md-3">
-                <div class="h-80 w-85">
+                <div class="item">
                     <div class="thumbnail">
-                        <img src="https://cdn.hbogo.eu/images/0BAA0186-173A-4605-A632-B25623677200/1280_720.jpg"
-                            class="card-img-top" alt="...">
+                        <img class="box-film" src="imagens-catalogo/her.jpg" alt="Filme 1">
                         <div class="overlay">
                         </div>
+
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title text-light">Harry Potter e o Cálice de Fogo</h5>
+                        <h5 class="card-title text-light">Ela</h5>
 
                     </div>
-
                 </div>
-            </div>
 
-            <div class="col-md-3">
-                <div class="h-80 w-85">
+                <div class="item">
                     <div class="thumbnail">
-                        <img src="https://observatoriodocinema.uol.com.br/wp-content/uploads/2018/07/O-Senhor-dos-Aneis.jpg"
-                            class="card-img-top" alt="...">
+                        <img class="box-film" src="imagens-catalogo/harry-potter.jpg" alt="Filme 1">
                         <div class="overlay">
                         </div>
+
                     </div>
-                    <div class="card-body bg-dark">
-                        <h5 class="card-title text-light">O Senhor dos Anéis: A Sociedade do Anel</h5>
+                    <div class="card-body">
+                        <h5 class="card-title text-light">Harry Potter e as Relíquias da Morte: Parte II</h5>
 
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-3">
-                <div class="h-80 w-85">
+
+                <div class="item">
                     <div class="thumbnail">
-                        <img src="https://observatoriodocinema.uol.com.br/wp-content/uploads/2018/07/O-Senhor-dos-Aneis.jpg"
-                            class="card-img-top" alt="...">
+                        <img class="box-film" src="imagens-catalogo/homem-aranha.jpg">
                         <div class="overlay">
+
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-light">Homem-Aranha no Aranhaverso</h5>
+
                         </div>
                     </div>
-                    <div class="card-body bg-dark">
-                        <h5 class="card-title text-light">O Senhor dos Anéis: A Sociedade do Anel</h5>
-
-                    </div>
                 </div>
-            </div>
 
-            <div class="col-md-3">
-                <div class="h-80 w-85">
+                <div class="item">
                     <div class="thumbnail">
-                        <img src="https://observatoriodocinema.uol.com.br/wp-content/uploads/2018/07/O-Senhor-dos-Aneis.jpg"
-                            class="card-img-top" alt="...">
+                        <img class="box-film" src="imagens-catalogo/bvs.jpg" alt="Filme 1">
                         <div class="overlay">
                         </div>
+
                     </div>
-                    <div class="card-body bg-dark">
-                        <h5 class="card-title text-light">O Senhor dos Anéis: A Sociedade do Anel</h5>
+                    <div class="card-body">
+                        <h5 class="card-title text-light">Batman v Superman</h5>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+            <div class="jumbotron jumbotron-fluid bg-dark mt-5">
+                <div class="container">
+                    <div class="text-light">
+                        <h3 class="display-8">Comédia</h3>
 
                     </div>
                 </div>
             </div>
 
+            <div class="carousel">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="thumbnail">
+                            <img class="box-film" src="imagens-catalogo/gente-grande.jpg" alt="Filme 1">
 
-        </div>
+                            <div class="overlay">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-light">Gente Grande</h5>
 
-
-
-
-
-
-
-
-        <div class="jumbotron bg-dark mt-5">
-
-            <div class="text-light">
-                <h3 class="display-8">Drama</h3>
-
-            </div>
-
-        </div>
-
-
-
-
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col-md-3">
-                <div class="h-80 w-85">
-                    <div class="thumbnail">
-                        <img src="https://cdn.hbogo.eu/images/0BAA0186-173A-4605-A632-B25623677200/1280_720.jpg"
-                            class="card-img-top" alt="...">
-                        <div class="overlay">
                         </div>
                     </div>
-                    <div class="card-body bg-dark">
-                        <h5 class="card-title text-light">Harry Potter e o Cálice de Fogo</h5>
+                    <div class="item">
+                        <div class="thumbnail">
+                            <img class="box-film" src="imagens-catalogo/anjos-da-lei.jpg" alt="Filme 1">
+                            <div class="overlay">
+                            </div>
 
-                    </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-light">Anjos da Lei</h5>
 
-                </div>
-            </div>
-
-            <div class="col-md-3">
-                <div class="h-80 w-85">
-                    <div class="thumbnail">
-                        <img src="https://observatoriodocinema.uol.com.br/wp-content/uploads/2018/07/O-Senhor-dos-Aneis.jpg"
-                            class="card-img-top" alt="...">
-                        <div class="overlay">
                         </div>
                     </div>
-                    <div class="card-body bg-dark">
-                        <h5 class="card-title text-light">O Senhor dos Anéis: A Sociedade do Anel</h5>
 
-                    </div>
-                </div>
-            </div>
+                    <div class="item">
+                        <div class="thumbnail">
+                            <img class="box-film" src="imagens-catalogo/familia-do-bagulho.jpg" alt="Filme 1">
+                            <div class="overlay">
+                            </div>
 
-            <div class="col-md-3">
-                <div class="h-80 w-85">
-                    <div class="thumbnail">
-                        <img src="https://observatoriodocinema.uol.com.br/wp-content/uploads/2018/07/O-Senhor-dos-Aneis.jpg"
-                            class="card-img-top" alt="...">
-                        <div class="overlay">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-light">Família do Bagulho</h5>
+
                         </div>
                     </div>
-                    <div class="card-body bg-dark">
-                        <h5 class="card-title text-light">O Senhor dos Anéis: A Sociedade do Anel</h5>
 
-                    </div>
-                </div>
-            </div>
+                    <div class="item">
+                        <div class="thumbnail">
+                            <img class="box-film" src="imagens-catalogo/hangover-3.jpg" alt="Filme 1">
+                            <div class="overlay">
+                            </div>
 
-            <div class="col-md-3">
-                <div class="h-80 w-85">
-                    <div class="thumbnail">
-                        <img src="https://observatoriodocinema.uol.com.br/wp-content/uploads/2018/07/O-Senhor-dos-Aneis.jpg"
-                            class="card-img-top" alt="...">
-                        <div class="overlay">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-light">Se Beber, Não Case III</h5>
+
                         </div>
                     </div>
-                    <div class="card-body bg-dark">
-                        <h5 class="card-title text-light">O Senhor dos Anéis: A Sociedade do Anel</h5>
 
+                    <div class="item">
+                        <div class="thumbnail">
+                            <img class="box-film" src="imagens-catalogo/virgem-de-40.jpg" alt="Filme 1">
+                            <div class="overlay">
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-light">O Virgem de 40 Anos</h5>
+
+                        </div>
                     </div>
+
+
+                    <div class="item">
+                        <div class="thumbnail">
+                            <img class="box-film" src="imagens-catalogo/superbad.jpg">
+                            <div class="overlay">
+
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title text-light">Superbad</h5>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="thumbnail">
+                            <img class="box-film" src="imagens-catalogo/projeto-x.jpg" alt="Filme 1">
+                            <div class="overlay">
+                            </div>
+
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-light">Projeto X</h5>
+
+                        </div>
+                    </div>
+
                 </div>
+
+
+
+
+
+
             </div>
-
-
-        </div>
         <!-- /cards-->
 
 
-        <!-- pagination-->
-
-        <nav class="pagination text-center justify-content-center d-flex mt-5">
-            <ul class="pagination">
-                <li class="page-item">
-                    <a class="page-link bg-dark text-light" href="#">Anterior</a>
-                </li>
-                <li class="page-item active"><a class="page-link bg-blue text-light" href="#">1</a></li>
-                <li class="page-item" aria-current="page">
-                    <span class="page-link bg-dark text-light">2</span>
-                </li>
-                <li class="page-item"><a class="page-link bg-dark text-light" href="#">3</a></li>
-                <li class="page-item">
-                    <a class="page-link bg-dark text-light" href="#">Próxima</a>
-                </li>
-            </ul>
-        </nav>
-
-        <!-- /pagination-->
 
 
         <!--Rodapé-->
         <footer>
-      
+
             <div class="row">
-              <div class="col-md-12 d-flex justify-content-center">
-    
-                <ul class="social-network d-flex">
-                  <li>
-                    <a href="https://github.com/Giovanni-SVC" target="_blank" class="iconGithub">
-                      <i class="fa fa-github" aria-hidden="true"></i>
-                    </a>
-                  </li>
-    
-                  <li>
-                    <a href="https://www.linkedin.com/in/giovannicerqueira/" target="_blank" class="iconLinkedin">
-                      <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                    </a>
-                  </li>
-    
-                </ul>
-    
-              </div>
+                <div class="col-md-12 d-flex justify-content-center">
+
+                    <ul class="social-network d-flex">
+                        <li>
+                            <a href="https://github.com/Giovanni-SVC" target="_blank" class="iconGithub">
+                                <i class="fa fa-github" aria-hidden="true"></i>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.linkedin.com/in/giovannicerqueira/" target="_blank"
+                                class="iconLinkedin">
+                                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
             </div>
-          
-    
-    
-          <div class="row mt-2">
-            <div class="col-md-12">
-    
-              <p class="text-light text-center">
-                Todos os direitos reservados. <br> &copy; Giovanni Cerqueira
-              </p>
-    
+
+
+
+            <div class="row mt-2">
+                <div class="col-md-12">
+
+                    <p class="text-light text-center">
+                        Todos os direitos reservados. <br> &copy; Giovanni Cerqueira
+                    </p>
+
+                </div>
             </div>
-          </div>
-    
+
         </footer>
         <!--/Rodapé-->
 
@@ -401,6 +366,13 @@
 
         <!-- JavaScript-->
         <!-- Primeiro Poppeer depois Bootstrap-->
+
+        <script src="https://kit.fontawesome.com/66c009e201.js" crossorigin="anonymous"></script>
+        <script src="./js/jquery.min.js"></script>
+        <script src="./js/owl.carousel.min.js"></script>
+        <script src="./js/setup.js"></script>
+
+
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
             integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
         </script>

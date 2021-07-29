@@ -1,7 +1,10 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url('imagem-fundo-cadastrar.jpeg');
+    background-image: url('GENFLIX-FUNDO.jpeg');
+    /*background: linear-gradient(rgb(195, 137, 237), rgb(127, 94, 247));*/
+    background-blend-mode: darken;
+    /*background: linear-gradient(to right, #C389ED, #7F5EF7);*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,6 +16,17 @@ body{
       box-shadow: 10px 10px 10px;
       border-radius: 50px !important;
       display: flex;
+      
+  }
+
+.card, .card-body, .teste{
+    /*background: linear-gradient(to right, #AF77D5, #AF77D5);*/
+    opacity: 100%;
+  }
+
+.card .form-control, select{
+    /*background: linear-gradient(#e6ceeb, #e6ceeb);*/
+    border-radius: 20px;
   }
 
 img{
@@ -52,6 +66,9 @@ img{
 }
 .datatexto{
     display: block;
+    text-align: center;
+    font-size: 15pt;
+    margin-bottom: 2px;
 }
 .right{
     margin-left: 20px;
@@ -67,6 +84,7 @@ img{
 .social-network li {
     list-style: none;
     
+    
 }
 
 .social-network .fa{
@@ -74,13 +92,24 @@ img{
     font-size: 35pt;
     color: #000000;
     padding: 10px;
-    
+    margin-left: 12px;
     
     
 }
-.teste{
+
+
+.icones{
     align-self: center;
-    
+    margin: 0;
+    text-align: center;
+      
+}
+
+.texto-rodape{
+    color: #000000;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
 }
   
 .fa-linkedin-square:hover{
@@ -98,14 +127,21 @@ img{
 .button-confirmar button{
     font-size: 17pt;
     font-weight: 400;
+    margin-top: 5px;
     letter-spacing: 1px;
     width: 100%;
-    background-color: #18c273;
+    background-color: #7F5EF7;
     border: none;
     color: #fff;
     padding: 15px;
     border-radius: 50px;
     outline: none;
-    transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1)
+    transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: .8s ease;
 }
 
+.button-confirmar button:hover{
+    background: linear-gradient(to right, #ba5bff, #8B65F6);
+    box-shadow: #000 0px 5px 2px;
+    transition: .2s ease;
+}
