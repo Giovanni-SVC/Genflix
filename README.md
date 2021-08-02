@@ -1,6 +1,6 @@
 # Genflix
 #### Projeto pessoal que simula uma plataforma de filmes e séries.
-### Você pode assistir ao projeto funcionando através desse link no meu linkedin: shorturl.at/yFGIM
+### Você pode assistir ao projeto funcionando através desse link no meu linkedin: <a href="shorturl.at/yFGIM">Clique Aqui.</a>
 
 
 ## Index
